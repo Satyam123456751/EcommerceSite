@@ -1,5 +1,5 @@
 import React, { Fragment, useReducer } from "react";
-// import Routes from "./components";
+import Routes from "./components/shop";
 import { LayoutContext, layoutState, layoutReducer } from "./components/shop";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <Fragment>
       <LayoutContext.Provider value={{ data, dispatch }}>
-        {/* <Routes /> */}
+                  <Routes />
       </LayoutContext.Provider>
     </Fragment>
   );
