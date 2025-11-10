@@ -1,26 +1,26 @@
 // import WishList from "./Wishlist";
-import ProtectedRoute from "./auth/ProtectedRoute";
-import AdminProtectedRoute from "./auth/AdminProtectedRoute";
-import CartProtectedRoute from "./auth/CartProtectedRoute";
-// import { LayoutContext } from "./layout";
-// import { layoutState, layoutReducer } from "./layout/layoutContext";
-import { isAdmin, isAuthenticate } from "./auth/fetchApi";
-// import PageNotFound from "./layout/PageNotFound";
-// import ProductDetails from "./productDetails";
-// import ProductByCategory from "./home/ProductByCategory";
-// import CheckoutPage from "./order/CheckoutPage";
+import ProtectedRoute from "./shop/auth/ProtectedRoute";
+import AdminProtectedRoute from "./shop/auth/AdminProtectedRoute";
+import CartProtectedRoute from "./shop/auth/CartProtectedRoute";
+import { LayoutContext } from "./shop/layout";
+import { layoutState, layoutReducer } from "./shop/layout/layoutContext";
+import { isAdmin, isAuthenticate } from "./shop/auth/fetchApi";
+import PageNotFound from "./shop/layout/PageNotFound";
+import ProductDetails from "./shop/productDetails";
+import ProductByCategory from "./shop/home/ProductByCategory";
+import CheckoutPage from "./shop/order/CheckoutPage";
 
 export {
   ProtectedRoute,
   AdminProtectedRoute,
   CartProtectedRoute,
-  // LayoutContext,
-  // layoutState,
-  // layoutReducer,
+  LayoutContext,
+  layoutState,
+  layoutReducer,
   isAdmin,
   isAuthenticate,
-  // PageNotFound,
-  // ProductDetails,
-  // ProductByCategory,
-  // CheckoutPage,
+  PageNotFound,
+  ProductDetails,
+  ProductByCategory,
+  CheckoutPage,
 };
