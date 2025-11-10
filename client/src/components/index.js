@@ -13,7 +13,6 @@ import CheckoutPage from "./order/CheckoutPage";
 
 export {
   Home,
-  WishList,
   ProtectedRoute,
   AdminProtectedRoute,
   CartProtectedRoute,
