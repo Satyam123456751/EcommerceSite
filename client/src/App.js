@@ -1,5 +1,5 @@
 import React, { Fragment, useReducer } from "react";
-import Routes from "./components/shop";
+import { Routes } from "./components/shop";
 import { LayoutContext, layoutState, layoutReducer } from "./components/shop";
 
 function App() {
