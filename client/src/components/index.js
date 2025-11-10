@@ -1,5 +1,5 @@
 import Home from "./home";
-import WishList from "./Wishlist";
+// import WishList from "./Wishlist";
 import ProtectedRoute from "./auth/ProtectedRoute";
 import AdminProtectedRoute from "./auth/AdminProtectedRoute";
 import CartProtectedRoute from "./auth/CartProtectedRoute";
