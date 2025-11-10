@@ -1,5 +1,10 @@
 # 🛍️ Hayroo Ecommerce (MERN Stack)
 
+## 🌐 Live Demo
+
+**[View Live Application](https://ecommercesite-1-s5qw.onrender.com)** 🚀
+
+
 A full-featured **Ecommerce Web Application** built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**.  
 It includes user authentication, product management, order handling, payments, and an admin dashboard.
 
